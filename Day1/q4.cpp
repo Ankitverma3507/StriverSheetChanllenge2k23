@@ -46,7 +46,7 @@ public:
         if(maxi<0)
         {
             for(int i=0; i<nums.size(); i++)
-            maxima= max(maxima,nums[i]);
+            {maxima= max(maxima,nums[i]);}
             maxi= maxima;
         }
         return maxi;
