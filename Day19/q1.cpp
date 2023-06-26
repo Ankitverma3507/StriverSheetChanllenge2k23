@@ -16,7 +16,7 @@ public:
     int f(TreeNode* root, int &sum){
         if(root==NULL) return 0;
 
-        int leftmaxpathsum= max(0,f(root->left, sum));
+        int leftmaxpathsum= max(0,f(root->left, sum));//this max is only to ignore the negative numbers
         int rightmaxpathsum= max(0,f(root->right, sum));
 
         sum= max(sum, leftmaxpathsum+rightmaxpathsum+ root->val);
