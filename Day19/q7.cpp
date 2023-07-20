@@ -42,3 +42,27 @@ void changeTree(BinaryTreeNode < int > * root) {
     if(root->right) total+= root->right->data;
     if(root->left or root->right) root->data= total;
 }  
+
+
+
+
+
+
+
+
+
+  struct TreeNode {
+      int val;
+      TreeNode *left;
+      TreeNode *right;
+      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+  };
+
+
+
+
+
+
+
+
+

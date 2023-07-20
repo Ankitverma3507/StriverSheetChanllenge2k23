@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-////////////////////////////////////optimal app with heavy data structures
+////////////////////////////////////optimal approach with heavy data structures
 struct TreeNode
 {
     int val;
